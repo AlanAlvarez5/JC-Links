@@ -50,7 +50,7 @@ class App extends Component {
 
     const app = {
       width : "100%",
-      padding: "3rem"
+      padding: "0"
     }
     const h1 = {
       display: "flex",
