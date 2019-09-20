@@ -30,9 +30,9 @@ class Link extends Component {
         }
 
         const h3 =  {
-            color : "#6F6F6F",
             justify: "center",
-            fontSize: "1rem"
+            fontSize: "1rem",
+            color: "white",
         }
 
         const i = {

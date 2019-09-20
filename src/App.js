@@ -55,8 +55,12 @@ class App extends Component {
     const h1 = {
       display: "flex",
       justifyContent: "center",
-      color : "#707070",
       fontSize: "5rem",
+      padding: "0rem",
+      margin: "0rem",
+      marginTop: "2rem",
+      color: "#C3A130"
+
     }
     const row1 ={
 
@@ -92,6 +96,12 @@ class App extends Component {
               icon=  'fas fa-laptop-code'
               href="https://sites.google.com/site/ugcoordinacionlisc/home"
               color="#99C2FF"
+              />
+            <Link 
+              name="Directorio"
+              icon=  'far fa-address-book'
+              href="http://www.ugto.mx/campusirapuatosalamanca/index.php/directorio-campus"
+              color="#ca71f0"
               />
           </div>
           <div style={row2}>
