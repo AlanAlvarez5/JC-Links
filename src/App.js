@@ -70,7 +70,8 @@ class App extends Component {
     const row2 ={
 
       display: "flex",
-      justifyContent: "center"
+      justifyContent: "center",
+      marginBottom: "1rem",
     }
 
     return (
