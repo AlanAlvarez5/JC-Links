@@ -50,6 +50,7 @@ class App extends Component {
 
     const app = {
       width : "100%",
+      minHeigth: "100%",
       padding: "0"
     }
     const h1 = {
@@ -59,15 +60,10 @@ class App extends Component {
       padding: "0rem",
       margin: "0rem",
       marginTop: "2rem",
-      color: "#C3A130"
+      color: "#00569B"
 
     }
-    const row1 ={
-
-      display: "flex",
-      justifyContent: "center"
-    }
-    const row2 ={
+    const row ={
 
       display: "flex",
       justifyContent: "center",
@@ -79,50 +75,57 @@ class App extends Component {
 
         <h1 style={h1}>Portal UG</h1>
         <div >
-          <div style={row1}>
+          <div style={row}>
             <Link 
               name="Tutorías"
               icon=  'fas fa-graduation-cap'
               href="http://www.tutorias.ugto.mx/Tutorias/wfloginsiia.aspx"
-              color="#FFB199"
+              // color="#FFB199"
+              color="#C3A130"
               />
             <Link 
               name="Administración Escolar"
               icon=  'fas fa-school'
               href="https://www.dae.ugto.mx/frontDAE/"
-              color="#FF99C2"
+              // color="#FF99C2"
+              color="#C3A130"
               />
             <Link 
               name="LISC"
               icon=  'fas fa-laptop-code'
               href="https://sites.google.com/site/ugcoordinacionlisc/home"
-              color="#99C2FF"
+              // color="#99C2FF"
+              color="#C3A130"
               />
             <Link 
               name="Directorio"
               icon=  'far fa-address-book'
               href="http://www.ugto.mx/campusirapuatosalamanca/index.php/directorio-campus"
-              color="#ca71f0"
+              // color="#ca71f0"
+              color="#C3A130"
               />
           </div>
-          <div style={row2}>
+          <div style={row}>
             <Link 
               name="Intranet"
               icon=  'fab fa-forumbee'
               href="https://intraug.ugto.mx/"
-              color="#FCD06A"
+              // color="#FCD06A"
+              color="#C3A130"
               />
             <Link 
               name="Académicos"
               icon=  'fas fa-chalkboard-teacher'
               href="http://www.academicos.ugto.mx/"
-              color="#FF7A7A"
+              // color="#FF7A7A"
+              color="#C3A130"
               />
             <Link 
               name="SIIA"
               icon=  'fas fa-info-circle'
               href="http://www.siia.ugto.mx/"
-              color="#B4FF99"
+              // color="#B4FF99"
+              color="#C3A130"
               />
           </div>
         </div>
